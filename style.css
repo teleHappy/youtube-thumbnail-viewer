@@ -1,0 +1,11 @@
+#results {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #results > img {
+    margin: 4px;
+    width: 320px;
+  }
+  
