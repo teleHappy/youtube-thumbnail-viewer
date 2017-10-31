@@ -48,7 +48,7 @@ document.querySelector('#search').addEventListener('submit', event => {
   youtubeSearch(searchTerm, maxResults).then(videos => {
     videos.forEach(video => {
       let img = document.createElement('img');
-      console.log(video)
+      console.log(video.snippet);
       img.src = video.snippet.thumbnails.medium.url;
       results.appendChild(img);
     });
